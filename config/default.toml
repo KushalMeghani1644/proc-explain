@@ -1,0 +1,18 @@
+[sampling]
+cpu_sample_ms = 700
+
+[thresholds]
+high_cpu_percent = 65.0
+very_high_cpu_percent = 90.0
+high_mem_percent = 8.0
+very_high_mem_percent = 16.0
+low_cpu_percent = 1.0
+low_mem_percent = 0.3
+busy_fd_count = 128
+busy_thread_count = 64
+idle_min_elapsed_seconds = 300
+supervisor_children_count = 4
+
+[output]
+default_limit = 10
+graph_default_depth = 3
